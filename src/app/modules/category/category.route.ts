@@ -17,4 +17,4 @@ router.patch('/:categoryId',CategoryControllers.updateCategoryInto)
 router.patch('/update-status/:categoryId',CategoryControllers.updateCategoryStatus)
 router.get('/active-Categories',CategoryControllers.getAllActiveCategories)
 
-export const BrandRoutes=router
+export const CategoryRoutes=router
